@@ -27,6 +27,7 @@ jobs:
       - run: sudo snap install flutter --classic
       - run: pwd
       - run: ls
+      - run: flutter doctor
       - name: Install dependencies
         run: flutter pub get
 
